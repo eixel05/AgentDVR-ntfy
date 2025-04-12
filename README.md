@@ -9,8 +9,8 @@ This is my personal script that I've been using in my current setup. I've been t
 5. Navigate to Actions > Add > Task
 6. Under Task, Choose Execute Command
 7. With File, choose the filename you chose for the file in 2.
-8. Under Parameters, add these: {0:H:mm:ss} {AI} {BASE64IMAGE} {NAME} then click OK
-   * These parameters corresponds to the tags in the script with $1, $2 etc..
+8. Under Parameters, add these: _{0:H:mm:ss} {AI} {BASE64IMAGE} {NAME}_ then click OK
+   - These parameters corresponds to the tags in the script with $1, $2 etc..
 9. Under If, if you want to test, you can choose Manual Alert, in my case, I'm choosing AI: Object Found
 10. OK, then OK.
 
